@@ -27,7 +27,7 @@ const Todos = () => {
     setInput("");
   };
 
-  console.log("FROM THE TODO COMPONENT", todos);
+  // console.log("FROM THE TODO COMPONENT", todos);
 
   const todoItems = todos.map((todo) => (
     <div key={todo.id}>
