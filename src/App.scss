@@ -4,5 +4,21 @@
   background: var(--white);
   padding: 1rem;
   border-radius:1rem;
-  //color: red;
+}
+
+
+
+@media (max-width: 600px){
+ .newsLetter{
+   display: flex;
+   flex-direction: column-reverse;
+   padding: 0;
+   
+   .newsLetter__img{
+     background-image: url('../public/illustration-sign-up-mobile.svg');
+     background-repeat: no-repeat;
+     width: 100%;
+   }
+ }
+ 
 }

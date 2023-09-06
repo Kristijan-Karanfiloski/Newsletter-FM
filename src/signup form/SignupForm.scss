@@ -1,7 +1,5 @@
 .signUp{
-  //border: 1px solid red;
   display: grid;
-  //padding: 1rem 0 1rem 1rem;
   padding: 2rem 2rem;
   font-size:1rem;
 
@@ -17,11 +15,13 @@
 
     .signUp___successItem{
       display: flex;
+    
 
       p{
         font-size:.85rem;
         margin-left:.5rem ;
         font-weight:bold;
+        align-items: start;
       }
     }
   }
@@ -37,6 +37,13 @@
       color: red;
       position: absolute;
       left:60%;
+      
+      @media (max-width: 600px){
+        color:red;
+        left: 51%;
+        top:-1rem;
+      }
+      
     }
 
      label{
@@ -94,4 +101,21 @@
     background:var(--primary)
   }
 
+}
+
+
+@media (max-width: 600px) {
+  .signUp{
+    h1 {
+      font-size: 1.5rem;
+    }
+    p{
+      margin-top: 1rem;
+    }
+    .signUp___successList{
+      align-items: center;
+    }
+    
+ 
+  }
 }
