@@ -13,12 +13,9 @@
    display: flex;
    flex-direction: column-reverse;
    padding: 0;
-   
-   //.newsLetter__img{
-   //  background-image: url('../public/illustration-sign-up-mobile.svg');
-   //  background-repeat: no-repeat;
-   //  width: 100%;
-   //}
+   .newsLetter__img{
+     margin-top: -8rem;
+   }
  }
  
 }
